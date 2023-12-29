@@ -1,0 +1,600 @@
+INFO - 2023-10-25 06:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 06:23:28 --> Undefined variable $results
+in APPPATH\Views\pembayaran.php on line 164.
+ 1 APPPATH\Views\pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 164)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(28): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:27:00 --> Too few arguments to function App\Controllers\Pembayaran::index(), 0 passed in C:\xampp\htdocs\SistemKasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Pembayaran.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:27:20 --> Too few arguments to function App\Controllers\Pembayaran::index(), 0 passed in C:\xampp\htdocs\SistemKasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Pembayaran.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:27:22 --> Too few arguments to function App\Controllers\Pembayaran::index(), 0 passed in C:\xampp\htdocs\SistemKasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Pembayaran.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:29:08 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\pembayaran.php on line 164.
+ 1 APPPATH\Views\pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 164)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(37): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 06:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 06:29:43 --> Call to undefined method App\Models\MenuModel::where()
+in APPPATH\Controllers\Pembayaran.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:29:44 --> Call to undefined method App\Models\MenuModel::where()
+in APPPATH\Controllers\Pembayaran.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:30:11 --> Call to undefined method App\Models\MenuModel::where()
+in APPPATH\Controllers\Pembayaran.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 06:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 06:30:34 --> Call to undefined method App\Models\MenuModel::where()
+in APPPATH\Controllers\Pembayaran.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:30:35 --> Call to undefined method App\Models\MenuModel::where()
+in APPPATH\Controllers\Pembayaran.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:30:35 --> Call to undefined method App\Models\MenuModel::where()
+in APPPATH\Controllers\Pembayaran.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:30:35 --> Call to undefined method App\Models\MenuModel::where()
+in APPPATH\Controllers\Pembayaran.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 06:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 06:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 06:53:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Pembayaran.php on line 25.
+ 1 APPPATH\Controllers\Pembayaran.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Controllers\\Pembayaran.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:55:38 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SistemKasir\\vendor\\codeigniter4\\framework\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `transaksi` SET `total` = :total:, `updated_at` = :updated_at:
+WHERE `transaksi`.`id_transaksi` IN :transaksi.id_transaksi:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `transaksi` SET `total` = :total:, `updated_at` = :updated_at:
+WHERE `transaksi`.`id_transaksi` IN :transaksi.id_transaksi:', [...], false)
+ 7 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 8 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 9 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+10 APPPATH\Controllers\Pembayaran.php(30): CodeIgniter\Model->update([...], [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:56:20 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SistemKasir\\vendor\\codeigniter4\\framework\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `transaksi` SET `total` = :total:, `updated_at` = :updated_at:
+WHERE `transaksi`.`id_transaksi` IN :transaksi.id_transaksi:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `transaksi` SET `total` = :total:, `updated_at` = :updated_at:
+WHERE `transaksi`.`id_transaksi` IN :transaksi.id_transaksi:', [...], false)
+ 7 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 8 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 9 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+10 APPPATH\Controllers\Pembayaran.php(30): CodeIgniter\Model->update([...], [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:56:22 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SistemKasir\\vendor\\codeigniter4\\framework\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `transaksi` SET `total` = :total:, `updated_at` = :updated_at:
+WHERE `transaksi`.`id_transaksi` IN :transaksi.id_transaksi:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `transaksi` SET `total` = :total:, `updated_at` = :updated_at:
+WHERE `transaksi`.`id_transaksi` IN :transaksi.id_transaksi:', [...], false)
+ 7 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 8 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 9 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+10 APPPATH\Controllers\Pembayaran.php(30): CodeIgniter\Model->update([...], [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 06:58:28 --> Undefined variable $id
+in APPPATH\Views\pembayaran.php on line 80.
+ 1 APPPATH\Views\pembayaran.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 80)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(40): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 07:02:15 --> Undefined array key "harga"
+in APPPATH\Views\pembayaran.php on line 81.
+ 1 APPPATH\Views\pembayaran.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(40): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 07:02:36 --> Undefined array key "total"
+in APPPATH\Views\pembayaran.php on line 81.
+ 1 APPPATH\Views\pembayaran.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(40): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 07:05:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pembayaran.php on line 73.
+ 1 APPPATH\Views\pembayaran.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(40): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 07:06:02 --> Array to string conversion
+in APPPATH\Views\pembayaran.php on line 88.
+ 1 APPPATH\Views\pembayaran.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 88)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(40): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 07:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 07:09:12 --> Unsupported operand types: string * string
+in APPPATH\Controllers\Pembayaran.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->disc()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 07:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 07:10:30 --> Unsupported operand types: string * string
+in APPPATH\Controllers\Pembayaran.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->disc()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 07:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 07:17:05 --> Undefined array key "total_harga"
+in APPPATH\Views\pembayaran.php on line 104.
+ 1 APPPATH\Views\pembayaran.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_harga"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(40): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 07:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 07:21:20 --> Undefined array key "disc"
+in APPPATH\Views\pembayaran.php on line 91.
+ 1 APPPATH\Views\pembayaran.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 91)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(41): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 07:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 07:43:59 --> Undefined array key "total_harga"
+in APPPATH\Views\pembayaran.php on line 192.
+ 1 APPPATH\Views\pembayaran.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_harga"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 192)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(41): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 07:45:04 --> Undefined array key "total_harga"
+in APPPATH\Views\pembayaran.php on line 193.
+ 1 APPPATH\Views\pembayaran.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_harga"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 193)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(41): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 07:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 07:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 08:13:00 --> Call to undefined function App\Controllers\uang()
+in APPPATH\Controllers\Pembayaran.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->bayar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 08:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 08:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 14:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 14:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 14:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 14:21:00 --> Undefined array key "discount"
+in APPPATH\Views\pembayaran.php on line 92.
+ 1 APPPATH\Views\pembayaran.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "discount"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 92)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(41): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+CRITICAL - 2023-10-25 14:21:27 --> Undefined array key "total_final"
+in APPPATH\Views\laporan.php on line 61.
+ 1 APPPATH\Views\laporan.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_final"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\laporan.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(15): view('laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 14:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 14:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 14:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 14:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 14:22:45 --> Undefined array key "discount"
+in APPPATH\Views\pembayaran.php on line 92.
+ 1 APPPATH\Views\pembayaran.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "discount"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 92)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(41): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 14:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 14:23:05 --> Undefined array key "total_final"
+in APPPATH\Views\laporan.php on line 61.
+ 1 APPPATH\Views\laporan.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_final"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\laporan.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(15): view('laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 14:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 14:23:17 --> Undefined array key "discount"
+in APPPATH\Views\pembayaran.php on line 92.
+ 1 APPPATH\Views\pembayaran.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "discount"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 92)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(41): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 14:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 14:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 14:23:22 --> Undefined array key "total_final"
+in APPPATH\Views\laporan.php on line 61.
+ 1 APPPATH\Views\laporan.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_final"', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\laporan.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(15): view('laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 16:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-25 16:37:52 --> Undefined variable $makanan
+in APPPATH\Views\pembayaran.php on line 109.
+ 1 APPPATH\Views\pembayaran.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $makanan', 'C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SistemKasir\\app\\Views\\pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pembayaran', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(41): view('pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pembayaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SistemKasir\\public\\index.php')
+INFO - 2023-10-25 16:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-25 16:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
